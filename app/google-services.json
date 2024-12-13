@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "205550325571",
+    "project_id": "login-register-ceksehat",
+    "storage_bucket": "login-register-ceksehat.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205550325571:android:f215b2959aca57d588a9f6",
+        "android_client_info": {
+          "package_name": "com.example.login_register_ceksehat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLTQ_3XHmfCHuW3E54NkbqN5PD8pIpGBs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205550325571:android:740411b5bab3064e88a9f6",
+        "android_client_info": {
+          "package_name": "com.example.loginregister_ceksehat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLTQ_3XHmfCHuW3E54NkbqN5PD8pIpGBs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

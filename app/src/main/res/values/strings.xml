@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">CekSehat</string>
+    <string name="welcome_message">Selamat datang di CekSehat!</string>
+    <string name="description_onboarding1">Pendamping kesehatan pribadi Anda untuk pengecekan gejala cepat dan berita terbaru seputar dunia kesehatan.</string>
+    <string name="description_onboarding2">Layanan kesehatan yang mudah diakses, kapan saja dan di mana saja. Mulai perjalanan Anda menuju kesehatan yang lebih baik dengan CekSehat hari ini!</string>
+    <string name="register_button_text">Daftar</string>
+    <string name="login_button_text">Sudah Punya Akun?</string>
+    <string name="password_label">Password</string>
+    <string name="signup_text">Don\'t have an account? Sign Up</string>
+    <string name="login_hint">Masukkan email dan password</string>
+    <string name="signup_hint">Daftar untuk mulai</string>
+    <string name="chat_prompt">Masukkan gejala Anda:</string>
+    <string name="search_prompt">Masukkan nama obat yang ingin dicari</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="example123_gmail_com">Example123@gmail.com</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="log_in">Log in</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign Up</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="re_enter_your_password">Re-enter your password</string>
+    <string name="title_Home">Home</string>
+    <string name="title_ChatBot">ChatBot</string>
+    <string name="title_Obat">Obat</string>
+    <string name="title_Artikel">Artikel</string>
+    <string name="chatbot_welcome1">Selamat datang di CekSehat! Di sini, Anda bisa memulai percakapan untuk memeriksa gejala kesehatan Anda secara cepat dan mudah.</string>
+    <string name="chatbot_welcome2">Jelaskan gejala yang Anda alami, dan kami akan memberikan saran awal berdasarkan informasi yang Anda berikan.</string>
+    <string name="chatbot_welcome3">Percakapan ini sepenuhnya aman dan kami menjaga privasi Anda. Mulai chat sekarang untuk mendapatkan rekomendasi kesehatan.</string>
+    <string name="obat_welcome">Selamat datang di CekSehat! Masukkan nama obat yang ingin Anda cari, dan kami akan memberikan informasi lengkap mengenai penggunaan, dosis, serta efek samping obat tersebut dengan cepat dan mudah.</string>
+    <string name="artikel_header">Artikel Kesehatan</string>
+    <string name="artikel_title">Artikel Kesehatan</string>
+    <string name="artikel_image">Artikel Image</string>
+    <string name="artikel_description">Artikel Description</string>
+    <string name="image_content_desc">Gambar Artikel</string>
+    <string name="artikel_content">Konten lengkap artikel akan ditampilkan di sini.</string>
+
+
+</resources>
