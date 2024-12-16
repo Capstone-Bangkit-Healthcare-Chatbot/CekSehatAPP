@@ -65,8 +65,7 @@ class ChatBotFragment : Fragment() {
                     val chatResponse = response.body()?.response
                     chatResponse?.let {
                         addMessageToChat("Bot: $it", false)
-                        // Setelah mendapatkan respon dari bot, kita panggil API untuk chat history
-                        loadChatHistory()  // Panggil history hanya setelah pesan dikirim dan diterima respons
+                        loadChatHistory()
                     }
                 }
             }
@@ -78,6 +77,8 @@ class ChatBotFragment : Fragment() {
     }
 
     private fun loadChatHistory() {
+        val lastChatIndex = chatList.size
+
         val client = ApiConfig.getChatBotApiService().getChatHistory()
         client.enqueue(object : Callback<List<ChatHistoryResponse>> {
             override fun onResponse(
@@ -88,12 +89,17 @@ class ChatBotFragment : Fragment() {
                     val chatHistory = response.body()
 
                     chatHistory?.forEach { history ->
-                        chatList.add(ChatMessage("User: ${history.input}", true))
-                        chatList.add(ChatMessage("Bot: ${history.response}", false))
+                        val userMessage = "User: ${history.input}"
+                        val botMessage = "Bot: ${history.response}"
+
+                        if (!chatList.any { it.message == userMessage || it.message == botMessage }) {
+                            chatList.add(ChatMessage(userMessage, true))
+                            chatList.add(ChatMessage(botMessage, false))
+                        }
                     }
 
                     chatAdapter.notifyDataSetChanged()
-                    binding.recyclerViewChat.visibility = View.VISIBLE
+                    binding.recyclerViewChat.scrollToPosition(chatList.size - 1)
                 } else {
                     addMessageToChat("Error: ${response.message()}", false)
                 }
