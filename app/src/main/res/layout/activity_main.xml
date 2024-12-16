@@ -54,6 +54,8 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@color/colorNavbar"
+        app:itemIconTint="@color/bottom_nav_selector"
+        app:itemRippleColor="@color/ripple_color"
         app:labelVisibilityMode="unlabeled"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
